@@ -9,7 +9,6 @@ function createCustomIcon(iconName) {
     });
 }
 
-// Creación de todos los iconos personalizados
 var busIcon = createCustomIcon('bus');
 var callIcon = createCustomIcon('call');
 var carIcon = createCustomIcon('car');
