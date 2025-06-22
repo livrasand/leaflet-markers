@@ -1,5 +1,5 @@
-# leaflet-waze-markers
-Custom Waze-inspired map markers for Leaflet.js
+# leaflet-markers
+Custom map markers for Leaflet.js
 
 | Icon Name | Preview | Filename |
 |-----------|---------|----------|
@@ -53,7 +53,7 @@ Custom Waze-inspired map markers for Leaflet.js
 ### Usage
 ```javascript
 var busIcon = new L.Icon({
-  iconUrl: 'https://raw.githubusercontent.com/livrasand/leaflet-waze-markers/main/img/bus.png',
+  iconUrl: 'https://raw.githubusercontent.com/livrasand/leaflet-markers/main/img/bus.png',
   shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
   iconSize: [38, 38],
   iconAnchor: [19, 38],
@@ -63,26 +63,3 @@ var busIcon = new L.Icon({
 
 L.marker([51.5, -0.09], {icon: greenIcon}).addTo(map);
 ```
-
-### **LEGAL WARNING – READ OR REGRET IT**  
-**This project is *NOT* Waze. Don’t get it twisted.**  
-
-#### **STRAIGHT TALK: NO LICENSE, NO AFFILIATION**  
-1. **100% UNOFFICIAL**  
-   - Zero ties to Waze/Google.  
-   - Zero endorsement from Waze/Google.  
-   - **Not a fork, not a clone. Inspired? Yes. Theirs? Hell no.**  
-
-2. **Icons: "Inspired by" ≠ "Owned by"**  
-   - Custom recreations. **No original Waze/Google assets.**  
-   - If you want official branding, **go knock on their door.**  
-
-3. **NO LICENSE. WHY?**  
-   - Waze’s IP is theirs. **We don’t touch it.**  
-   - Using these icons? **Don’t imply it’s official.**  
-   - **Get sued? Not my problem.** You ignored this warning.  
-
-#### **WHAT HAPPENS IF YOU SCREW UP?**  
-- **Trademark infringement?** Waze’s lawyers will *own you*.  
-- **User confusion?** You’re liable. **I’m not.**  
-- **Cease-and-desist?** You earned it. **Enjoy.**  
